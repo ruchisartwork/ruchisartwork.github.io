@@ -122,3 +122,4 @@ defaults:
     values:
       layout: post
       share: false
+theme: jekyll-theme-architect
