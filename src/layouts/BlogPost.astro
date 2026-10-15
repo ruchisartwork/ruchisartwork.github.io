@@ -36,6 +36,15 @@ const { title, description, customSketch } = Astro.props;
 				padding: 1em;
 				color: rgb(var(--gray-dark));
 			}
+			.prose :global(img) {
+				display: block;
+				max-width: 200px;
+				width: 50%;
+				height: auto;
+				margin: 1em auto;
+				border-radius: 12px;
+				box-shadow: var(--box-shadow);
+			}
 			.title {
 				margin-bottom: 1em;
 				padding: 1em 0;
